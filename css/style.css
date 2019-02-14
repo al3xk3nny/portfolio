@@ -1,0 +1,57 @@
+h1 {
+    font-family: 'Amatic SC', cursive;
+    color: #ffffff;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+a {
+    color: #f08080;
+}
+
+a:hover {
+    color: #cd5b45;
+}
+
+header {
+    height: 100vh;
+}
+
+#header-image {
+    background-image: url("../media/images/coral_1600x800.png");
+    height: 100vh;
+    background-color: #0041a2; 
+    background-position: center;
+    background-size: cover;
+}
+
+.title-greeting-desktop {
+    position: absolute;
+    top: 65vh;
+    left: 45vw;
+}
+
+.title-greeting-mobile {
+    position: absolute;
+    top: 40vh;
+    left: 15vw;
+}
+
+.fish-animation {
+    position: absolute;
+    top: 50vh;
+    animation: moveright 20s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveright {
+    from {left: -10vw;}
+    to {left: 80vw;}
+}
+
+main {
+    background-color: #16104f;
+}
