@@ -3,8 +3,12 @@ h1 {
     color: #ffffff;
 }
 
-p {
+h4, p {
     font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+ul li {
     color: #ffffff;
 }
 
@@ -16,9 +20,9 @@ a:hover {
     color: #cd5b45;
 }
 
-header {
-    height: 100vh;
-}
+/*header {*/
+/*    height: 100vh;*/
+/*}*/
 
 #header-image {
     background-image: url("../media/images/coral_1600x800.png");
@@ -54,4 +58,41 @@ header {
 
 main {
     background-color: #16104f;
+}
+
+
+
+/* Styling for cards under My Work*/
+
+@media only screen and (max-width: 960px) { 
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media only screen and (min-width: 960px) { 
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+.card-title {
+    color: #16104F;
+}
+
+.card-subtitle {
+    color: #27A0C2;
+}
+
+.card-text {
+    color: #000000;
+}
+
+.bg-card-blockquote {
+    background-color: #27A0C2;
+}
+
+
+footer {
+    background-color: #0041A2;
 }
