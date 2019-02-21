@@ -60,6 +60,13 @@ main {
     background-color: #16104f;
 }
 
+/* Styling for bio text*/
+
+.bio p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
+
 
 
 /* Styling for cards under My Work*/
@@ -76,6 +83,9 @@ main {
     }
 }
 
+
+/* Styling for My Work cards*/
+
 .card-title {
     color: #16104F;
 }
@@ -86,6 +96,10 @@ main {
 
 .card-text {
     color: #000000;
+}
+
+.card-link {
+    font-size: 1.5rem;
 }
 
 .bg-card-blockquote {
