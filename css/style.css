@@ -1,3 +1,5 @@
+/* General styling*/
+
 h1 {
     font-family: 'Amatic SC', cursive;
     color: #ffffff;
@@ -20,9 +22,16 @@ a:hover {
     color: #cd5b45;
 }
 
-/*header {*/
-/*    height: 100vh;*/
-/*}*/
+.btn {
+    background-color: #f08080;
+}
+
+.btn i {
+    color: #cd5b45;
+}
+
+
+/* Styling for header*/
 
 #header-image {
     background-image: url("../media/images/coral_1600x800.png");
@@ -43,6 +52,7 @@ a:hover {
     top: 40vh;
     left: 15vw;
 }
+
 
 /* Styling for fish animation*/
 
@@ -87,9 +97,13 @@ a:hover {
     to {left: 20vw;}
 }
 
+
+/* Styling for main colour*/
+
 main {
     background-color: #16104f;
 }
+
 
 /* Styling for bio text*/
 
@@ -99,14 +113,7 @@ main {
 }
 
 
-
 /* Styling for cards under My Work*/
-
-/*@media only screen and (max-width: 720px) { */
-/*    .card-columns {*/
-/*        column-count: 1;*/
-/*    }*/
-/*}*/
 
 @media only screen and (min-width: 720px) { 
     .card-columns {
@@ -138,6 +145,24 @@ main {
 }
 
 
+/* Styling for footer colour*/
+
 footer {
     background-color: #0041A2;
+}
+
+
+/* Styling for home button*/
+
+.home-button {
+    position: relative;
+    top: -3.5vh;
+    right: 5vw;
+}
+
+
+/* Styling for Linkedin and GitHub contact links*/
+
+.contact-link {
+    font-size: 1.5rem;
 }
