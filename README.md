@@ -20,5 +20,3 @@ A live version of the site can be viewed [here](https://al3xk3nny.github.io/port
 ## Deployment
 
 This site is hosted on GitHub pages and is deployed from the master branch.
-
-In order to run this site locally, in your terminal, type or paste; git clone https://github.com/al3xk3nny/portfolio
