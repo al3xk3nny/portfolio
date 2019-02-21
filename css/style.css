@@ -44,16 +44,47 @@ a:hover {
     left: 15vw;
 }
 
-.fish-animation {
+/* Styling for fish animation*/
+
+.fish-animation-1 {
+    position: absolute;
+    top: 25vh;
+    right: -15vw;
+    animation: moveleft 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveleft {
+    from {right: -15vw;}
+    to {right: 20vw;}
+}
+
+.fish-animation-2 {
     position: absolute;
     top: 50vh;
-    animation: moveright 20s;
+    left: -15vw;
+    animation: movefurtherright 20s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes movefurtherright {
+    from {left: -15vw;}
+    to {left: 80vw;}
+}
+
+
+.fish-animation-3 {
+    position: absolute;
+    top: 75vh;
+    left: -15vw;
+    animation: moveright 10s;
+    animation-delay: 5s;
     animation-fill-mode: forwards;
 }
 
 @keyframes moveright {
-    from {left: -10vw;}
-    to {left: 80vw;}
+    from {left: -15vw;}
+    to {left: 20vw;}
 }
 
 main {
@@ -71,13 +102,13 @@ main {
 
 /* Styling for cards under My Work*/
 
-@media only screen and (max-width: 960px) { 
-    .card-columns {
-        column-count: 1;
-    }
-}
+/*@media only screen and (max-width: 720px) { */
+/*    .card-columns {*/
+/*        column-count: 1;*/
+/*    }*/
+/*}*/
 
-@media only screen and (min-width: 960px) { 
+@media only screen and (min-width: 720px) { 
     .card-columns {
         column-count: 2;
     }

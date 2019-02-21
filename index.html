@@ -54,8 +54,16 @@
                     </div>
                 </div>
                 
-                <div class="fish-animation">
-                    <img src="media/images/fish_dc_r_50x50.png" class="img-fluid" alt="Fish" />
+                <div class="fish-animation-1">
+                    <img src="media/images/coral_fish_100x100.png" class="img-fluid" alt="Angel Fish" />
+                </div>
+                
+                <div class="fish-animation-2">
+                    <img src="media/images/yellow_fish_50x50.png" class="img-fluid" alt="Yellow Fish" />
+                </div>
+                
+                <div class="fish-animation-3">
+                    <img src="media/images/yellow_fish_50x50.png" class="img-fluid" alt="Yellow Fish" />
                 </div>
                 
             </div>
@@ -64,11 +72,13 @@
         
         <main role="main">
             
+            <!-- About Start -->
+            
             <section id="about">
                 
                 <div class="row no-gutters">
-                    <div class="col-12 col-md-6 p-4 bio">
-                        <!--<h1 class="font-weight-normal">My Story</h1>-->
+                    <div class="col-12 col-md-6 my-auto p-4 bio">
+                        <h1 class="display-4 font-weight-normal">My Story</h1>
                         <p class="font-weight-normal text-justify">
                             I'm an ex ad agency client manager transitioning into software development. Digtial communications has always been my focus, with tradtional advertising on the side... or was it the other way around?
                         </p>
@@ -87,115 +97,108 @@
                 
             </section>
             
-            <section>
+            <!-- About End -->
+            
+            <!-- Portfolio Start -->
+            
+            <section id="portfolio">
                 
                 <div class="row no-gutters">
-                    <div class="col-6 mx-auto p-4">
-                        <img src="media/images/coral_portrait_400x800.png" class="img-fluid rounded" alt="Coral Image" />
+                    <div class="d-none d-lg-block col-2 p-4">
+                        <h1 class="display-4 font-weight-normal">My Skills</h1>
+                    </div>
+                        
+                    <div class="d-none d-lg-block col-2 p-4">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
                     </div>
                     
-                    <div class="col-6 my-auto p-4">
-                        <img src="media/images/coral_landscape_800x400.png" class="img-fluid rounded" alt="Coral Image" />
+                    <div class="d-none d-lg-block col-2 p-4">
+                        <ul>
+                            <li>Python</li>
+                            <li>Python-Flask</li>
+                            <li>Python-Django</li>
+                        </ul>
                     </div>
+                    
+                    <div class="d-none d-lg-block col-2 p-4">
+                        <ul>
+                            <li>Mongo DB</li>
+                            <li>PostgreSQL</li>
+                            <li>Heroku</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="row no-gutters">    
+                    <div class="col-12 col-lg-2 p-4">
+                        <h1 class="display-4 font-weight-normal">My work</h1>
+                    </div>
+                        
+                    <div class="col-12 col-lg-8 p-4">
+                        <div class="card-columns">
+                            <div class="card">
+                                <img src="media/images/escape_room_286x180.png" class="card-img-top" alt="Escape Room">
+                                <div class="card-body">
+                                    <h5 class="card-title">Escape Rooms</h5>
+                                    <h6 class="card-subtitle mb-2">Interactive JavaScript Game</h6>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloremque sapiente explicabo ut quidem animi inventore nihil ex modi sed!</p>
+                                    <a href="https://al3xk3nny.github.io/stream1_project1/" class="card-link"><i class="fas fa-desktop"></i></a>
+                                    <a href="#" class="card-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Math Game</h5>
+                                    <h6 class="card-subtitle mb-2">Interactive JavaScript Game</h6>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloremque sapiente explicabo ut quidem animi inventore nihil ex modi sed!</p>
+                                    <a href="https://al3xk3nny.github.io/week2_math-game_challenge/Challenge/mathgame.html" class="card-link"><i class="fas fa-desktop"></i></a>
+                                    <a href="#" class="card-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="media/images/paraphernalia_286x180.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Paraphernalia</h5>
+                                    <h6 class="card-subtitle mb-2">Flask-Mongo Python CRUD Application</h6>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloremque sapiente explicabo ut quidem animi inventore nihil ex modi sed!</p>
+                                    <a href="https://code-inst-contentlistmanager.herokuapp.com/" class="card-link"><i class="fas fa-desktop"></i></a>
+                                    <a href="#" class="card-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="card bg-card-blockquote text-white text-center p-3">
+                                <blockquote class="blockquote mb-0">
+                                    <p>I tend to code things from scratch, and enjoy bringing ideas to life in the browse</p>
+                                </blockquote>
+                            </div>
+                            <div class="card">
+                                <img src="media/images/right_place_286x180.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Right Place</h5>
+                                    <h6 class="card-subtitle mb-2">Django-Postgresql Python CRUD Application</h6>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloremque sapiente explicabo ut quidem animi inventore nihil ex modi sed!</p>
+                                    <a href="https://code-inst-rightplace.herokuapp.com/" class="card-link"><i class="fas fa-desktop"></i></a>
+                                    <a href="#" class="card-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row no-gutters">
+                    
+                    <div class="col-12">
+                        <img src="media/images/coral_fish_1600x400.png" class="img-fluid" alt="Coral Image" />
+                    </div>
+                
                 </div>
                 
             </section>
             
-            <section id="portfolio">
-                
-                <!-- <div class="row no-gutters">-->
-                <!--    <div class="col-12 p-4">-->
-                <!--        <h1 class="font-weight-normal">My work</h1>-->
-                <!--    </div>-->
-                <!--</div>-->
-                
-                <div class="container">
-                    <div class="row">
-                        
-                        <div class="d-none d-md-block col-md-4">
-                            <div class="col-12 p-4">
-                                <h1 class="font-weight-normal">My Skills</h1>
-                            </div>
-                            
-                            <div class="col-12 p-4">
-                                <h4>Front end</h4>
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                </ul>
-                                
-                                <h4>Back end</h4>
-                                <ul>
-                                    <li>Python</li>
-                                    <li>Python-Flask</li>
-                                    <li>Python-Django</li>
-                                    <li>Mongo DB</li>
-                                    <li>PostgreSQL</li>
-                                    <li>Heroku</li>
-                                </ul>
-                            </div>
-                            
-                        </div>
-                        
-                        <div class="col-12 col-md-8">
-                            
-                            <div class="col-12 p-4">
-                                <h1 class="font-weight-normal">My work</h1>
-                            </div>
-                            
-                            <div class="card-columns p-4">
-                                <div class="card">
-                                    <img src="media/images/escape_room_286x180.png" class="card-img-top" alt="Escape Room">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Escape Rooms</h5>
-                                        <h6 class="card-subtitle mb-2">Interactive JavaScript Game</h6>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloremque sapiente explicabo ut quidem animi inventore nihil ex modi sed!</p>
-                                        <a href="https://al3xk3nny.github.io/stream1_project1/" class="card-link"><i class="fas fa-desktop"></i></a>
-                                        <a href="#" class="card-link"><i class="fab fa-github"></i></a>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Math Game</h5>
-                                        <h6 class="card-subtitle mb-2">Interactive JavaScript Game</h6>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloremque sapiente explicabo ut quidem animi inventore nihil ex modi sed!</p>
-                                        <a href="https://al3xk3nny.github.io/week2_math-game_challenge/Challenge/mathgame.html" class="card-link"><i class="fas fa-desktop"></i></a>
-                                        <a href="#" class="card-link"><i class="fab fa-github"></i></a>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img src="media/images/paraphernalia_286x180.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Paraphernalia</h5>
-                                        <h6 class="card-subtitle mb-2">Flask-Mongo Python CRUD Application</h6>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloremque sapiente explicabo ut quidem animi inventore nihil ex modi sed!</p>
-                                        <a href="https://code-inst-contentlistmanager.herokuapp.com/" class="card-link"><i class="fas fa-desktop"></i></a>
-                                        <a href="#" class="card-link"><i class="fab fa-github"></i></a>
-                                    </div>
-                                </div>
-                                <div class="card bg-card-blockquote text-white text-center p-3">
-                                    <blockquote class="blockquote mb-0">
-                                        <p>I tend to code things from scratch, and enjoy bringing ideas to life in the browse</p>
-                                    </blockquote>
-                                </div>
-                                <div class="card">
-                                    <img src="media/images/right_place_286x180.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Right Place</h5>
-                                        <h6 class="card-subtitle mb-2">Django-Postgresql Python CRUD Application</h6>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloremque sapiente explicabo ut quidem animi inventore nihil ex modi sed!</p>
-                                        <a href="https://code-inst-rightplace.herokuapp.com/" class="card-link"><i class="fas fa-desktop"></i></a>
-                                        <a href="#" class="card-link"><i class="fab fa-github"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                
-                        </div>
-                    </div>
-                </div>    
-                
-            </section>
+            <!-- Portfolio End -->
             
         </main>
         
